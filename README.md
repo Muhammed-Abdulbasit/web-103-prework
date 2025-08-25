@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/Muhammed-Abdulbasit/web-103-prework/blob/main/prework/web103gif.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿 https://github.com/Muhammed-Abdulbasit/web-103-prework/blob/main/prework/web103gif.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  LiceCap
