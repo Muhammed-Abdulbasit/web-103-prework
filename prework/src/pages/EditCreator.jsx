@@ -9,7 +9,7 @@ export default function EditCreator() {
     name: "",
     url: "",
     description: "",
-    image: ""
+    image_url: ""
   });
 
   // Fetch creator info on load
@@ -40,7 +40,7 @@ export default function EditCreator() {
         name: creator.name,
         url: creator.url,
         description: creator.description,
-        image: creator.image
+        image_url: creator.image_url
       })
       .eq("id", id);
 
@@ -94,8 +94,8 @@ export default function EditCreator() {
         <label>Image URL:</label>
         <input
           type="text"
-          value={creator.image}
-          onChange={(e) => setCreator({ ...creator, image: e.target.value })}
+          value={creator.image_url}
+          onChange={(e) => setCreator({ ...creator, image_url: e.target.value })}
         />
 
         <button type="submit" style={{ marginTop: "10px" }}>

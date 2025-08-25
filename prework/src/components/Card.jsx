@@ -7,21 +7,15 @@ export default function Card({ creator }) {
       <img
         src={creator.image_url || "https://via.placeholder.com/200"}
         alt={creator.name}
-        className="card-image"
         style={{ width: "200px", borderRadius: "8px" }}
       />
-      <h2 className="card-name">{creator.name}</h2>
-      <a
-        href={creator.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="card-url"
-      >
+      <h2>{creator.name}</h2>
+      <a href={creator.url} target="_blank" rel="noopener noreferrer">
         {creator.url}
       </a>
-      <p className="card-description">{creator.description}</p>
+      <p>{creator.description}</p>
 
-      <div className="card-buttons" style={{ marginTop: "10px" }}>
+      <div style={{ marginTop: "10px" }}>
         <Link to={`/creator/${creator.id}`}>
           <button style={{ marginRight: "8px" }}>View</button>
         </Link>

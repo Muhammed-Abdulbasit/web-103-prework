@@ -3,7 +3,7 @@ import supabase from "../client";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
-export default function ShowCreator() {
+export default function ShowCreators() {
   const [creators, setCreators] = useState([]);
   const [loading, setLoading] = useState(true);
 
