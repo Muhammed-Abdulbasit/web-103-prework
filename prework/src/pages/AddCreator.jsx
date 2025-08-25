@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import supabase from "../client";
 import { useNavigate } from "react-router-dom";
+import '../App.css';
 
 export default function AddCreator() {
   const navigate = useNavigate();

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import supabase from "../client"; // Adjust path if needed
+import supabase from "../client";
+import '../App.css';
 
 export default function EditCreator() {
   const { id } = useParams();

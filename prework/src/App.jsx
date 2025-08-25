@@ -4,6 +4,7 @@ import ShowCreators from "./pages/ShowCreators"; // homepage
 import AddCreator from "./pages/AddCreator";   // add new creator
 import ViewCreator from "./pages/ViewCreator"; // view single creator
 import EditCreator from "./pages/EditCreator"; // edit creator
+import './App.css'; 
 
 function App() {
   return (
